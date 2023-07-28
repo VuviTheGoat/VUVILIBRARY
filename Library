@@ -299,7 +299,7 @@ local function createOriginialElements()
 		minus.BorderSizePixel = 0
 		minus.Size = UDim2.new(1, 0, .5, 0)
 		minus.AutoButtonColor = false
-		minus.Image = "rbxassetid://11520996670"
+		minus.Image = "rbxassetid://14223770261"
 		minus.ImageColor3 = Color3.fromRGB(250, 250, 250)
 		
 		minusAspect.Name = "MinusAspect"
@@ -312,7 +312,7 @@ local function createOriginialElements()
 		close.BorderSizePixel = 0
 		close.Size = UDim2.new(1, 0, 0.5, 0)
 		close.AutoButtonColor = false
-		close.Image = "rbxassetid://11520882762"
+		close.Image = "rbxassetid://14223770261"
 		close.ImageRectOffset = Vector2.new(48, 0)
 		close.ImageRectSize = Vector2.new(20, 20)
 
@@ -435,7 +435,7 @@ local function createOriginialElements()
 		tabImage.BorderSizePixel = 0
 		tabImage.Position = UDim2.new(0.0350000001, 5, 0.5, 0)
 		tabImage.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
-		tabImage.Image = "rbxassetid://10746039695"
+		tabImage.Image = "rbxassetid://14223770261"
 
 		tabAspectRatioConstraint.Parent = tabImage
 
@@ -559,7 +559,7 @@ local function createOriginialElements()
 		resizeButton.BorderSizePixel = 0
 		resizeButton.Position = UDim2.new(1, -5, 0.5, 0)
 		resizeButton.Size = UDim2.fromScale(.75, .75)
-		resizeButton.Image = "rbxassetid://11269835227"
+		resizeButton.Image = "rbxassetid://14223770261"
 		
 		resizeButtonAspect.Parent = resizeButton
 
@@ -766,7 +766,7 @@ local function createOriginialElements()
 		toggleImage.BackgroundTransparency = 0
 		toggleImage.BorderSizePixel = 0
 		toggleImage.Position = UDim2.new(0.5, 0, 0.5, 0)
-		toggleImage.Image = "rbxassetid://11444348176"
+		toggleImage.Image = "rbxassetid://14223770261"
 		toggleImage.ImageColor3 = Color3.fromRGB(31, 31, 43)
 		
 		toggleImageCorner.Name = "ToggleImageCorner"
@@ -968,7 +968,7 @@ local function createOriginialElements()
 		dropdownImage.Position = UDim2.new(1, -3, 0, 0)
 		dropdownImage.Rotation = 180.000
 		dropdownImage.Size = UDim2.new(1, 0, 1, 0)
-		dropdownImage.Image = "rbxassetid://11269835227"
+		dropdownImage.Image = "rbxassetid://14223770261"
 
 		imageAspect.Name = "ImageAspect"
 		imageAspect.Parent = dropdownImage
@@ -1230,7 +1230,7 @@ local function createOriginialElements()
 		searchImage.BorderSizePixel = 0
 		searchImage.Position = UDim2.new(1, 0, 0.5, 0)
 		searchImage.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
-		searchImage.Image = "rbxassetid://11454041890"
+		searchImage.Image = "rbxassetid://14223770261"
 
 		searchImageAspect.Name = "SearchImageAspect"
 		searchImageAspect.Parent = searchImage
@@ -1592,7 +1592,7 @@ local function createOriginialElements()
 		wheelImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		wheelImage.BackgroundTransparency = 1.000
 		wheelImage.Size = UDim2.new(1, 0, 1, 0)
-		wheelImage.Image = "rbxassetid://11515288750"
+		wheelImage.Image = "rbxassetid://14223770261"
 
 		wheelImageAspect.Name = "WheelImageAspect"
 		wheelImageAspect.Parent = wheelImage
@@ -1606,7 +1606,7 @@ local function createOriginialElements()
 		dropdownImage.Rotation = 180
 		dropdownImage.Position = UDim2.new(1, 0, 0, 0)
 		dropdownImage.Size = UDim2.new(1, 0, 1, 0)
-		dropdownImage.Image = "rbxassetid://11269835227"
+		dropdownImage.Image = "rbxassetid://14223770261"
 
 		dropdownButtonAspect.Name = "DropdownButtonAspect"
 		dropdownButtonAspect.Parent = dropdownImage
@@ -1879,7 +1879,7 @@ local function createOriginialElements()
 		wheel.BorderSizePixel = 0
 		wheel.Size = UDim2.new(1, 0, 1, 0)
 		wheel.AutoButtonColor = false
-		wheel.Image = "rbxassetid://11515288750"
+		wheel.Image = "rbxassetid://14223770261"
 
 		wheelAspect.Name = "WheelAspect"
 		wheelAspect.Parent = wheel
@@ -1892,7 +1892,7 @@ local function createOriginialElements()
 		selector.BorderSizePixel = 0
 		selector.Position = UDim2.new(0.5, 0, 0.5, 0)
 		selector.Size = UDim2.new(0.125, 0, 0.125, 0)
-		selector.Image = "rbxassetid://11515686713"
+		selector.Image = "rbxassetid://14223770261"
 
 		selectorAspect.Name = "SelectorAspect"
 		selectorAspect.Parent = selector
@@ -2080,7 +2080,7 @@ function Library.new(windowName: string, constrainToScreen: boolean?, width: num
 		background.Size = UDim2.fromOffset(background.AbsoluteSize.X, height)
 	end
 
-	holder.PageLogo.Image = backgroundImageId or "rbxassetid://11435586663"
+	holder.PageLogo.Image = backgroundImageId or "rbxassetid://14223770261"
 	background.Position = UDim2.new(0, background.AbsolutePosition.X + background.AbsoluteSize.X / 2, 0, background.AbsolutePosition.Y + background.AbsoluteSize.Y / 2 + 36)
 	background.BackgroundUIAspectRatioConstraint:Destroy()
 	holder.Size = UDim2.new(0,holder.AbsoluteSize.X,0,holder.AbsoluteSize.Y)
@@ -2217,7 +2217,7 @@ function windowHandler:Tab(tabName: string, tabImage: string): table
 	tab.ElementToParentChildren = pageInstance
 	
 	tabInstance.TabText.Text = tabName or "N/A"
-	tabInstance.TabImage.Image = tabImage or "rbxassetid://11436779516" -- Add n/a found image here later on
+	tabInstance.TabImage.Image = tabImage or "rbxassetid://14223770261" -- Add n/a found image here later on
 
 	tabInstance.MouseEnter:Connect(onMouseEnter)
 	tabInstance.MouseLeave:Connect(onMouseLeave)
@@ -3261,4 +3261,3 @@ end
 createOriginialElements()
 
 return Library
-
